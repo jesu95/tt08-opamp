@@ -9,12 +9,24 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Basic Two-Stage CMOS Operational Amplifier (Opamp) with Miller Compensation.
+
+### Specifications
+
+- Vdd = 1.8 V
+- Closeloop DC Gain = ~20 dB 
+- Bandwidth = 60 MHz
+- Output Noise = ~250 uV
+- Power Consumption = ~3.6729 mW
+- Iref = 100uA
 
 ## How to test
 
-Explain how to use your project
+Test benches are provided to evaluate the design performance:
+- Openloop 
+- Closeloop
+- Step response
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+It is required to inject the 100uA externally. This is the current reference of the circuit.
